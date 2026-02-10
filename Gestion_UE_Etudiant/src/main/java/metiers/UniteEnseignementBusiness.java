@@ -2,6 +2,9 @@ package metiers;
 
 
 import entities.UniteEnseignement;
+
+import javax.ws.rs.POST;
+import javax.ws.rs.core.Response;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -85,4 +88,7 @@ public class UniteEnseignementBusiness {
     public void setUnitesEnseignement(List<UniteEnseignement> unitesEnseignement) {
         this.unitesEnseignement = unitesEnseignement;
     }
+
+
+
 }
